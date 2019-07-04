@@ -21,12 +21,12 @@ apprise_object = apprise.Apprise()
 apprise_object.add(apprise_syntax)
 
 # To receive Windows Notifications (pypiwin32 required)
-apprise_object.add('windows://')
+# apprise_object.add('windows://')
 
 # Set browser
 browser = mechanicalsoup.StatefulBrowser()
 
-# Login to my.t website
+# Open my.t website
 browser.open("http://internetaccount.myt.mu")
 
 # Enter credentials
