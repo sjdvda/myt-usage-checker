@@ -41,7 +41,7 @@ Refer to the [Apprise documentation](https://github.com/caronc/apprise/wiki) for
 
 
 `mailto://{userid}:{password}@gmail.com` will send the notification by email.
-
+`pbul://{accesstoken}/{device_id}`
 
 `windows://` will send the notification to the Windows Notification Centre (`pypwin32` required).
 
@@ -49,5 +49,5 @@ Refer to the [Apprise documentation](https://github.com/caronc/apprise/wiki) for
 
 `TIME`: The time format. The only valid values are `12h` or `24h`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTMyMDM1ODZdfQ==
+eyJoaXN0b3J5IjpbODU3MTYyMTNdfQ==
 -->
