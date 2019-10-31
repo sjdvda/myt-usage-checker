@@ -1,13 +1,22 @@
 import configparser
+import os
 import re
 import sys
 
 import apprise
 import dateparser
 import mechanicalsoup
+from bs4 import BeautifulSoup
+
+configfile = 'config.ini'
 
 config = configparser.ConfigParser()
-config.read('config.ini')
+
+if not( os.path.isfile(configfile)):
+    print("Error: Config file not found.")
+    sys.exit()
+else:
+    config.read(configfile)
 
 # Get values from config file
 username = config['DEFAULT']['USERNAME']
@@ -78,7 +87,8 @@ if login_verify:
 
     message = 'Remaining Data: ' + remaining + '\nExpiry: ' + converted_date
 
-    if threshold is '0' or float(threshold) <= gb_amount:
+    # Check if value exceeds threshold
+    if threshold == '0' or float(threshold) <= gb_amount:
         # Send notification
         apprise_object.notify(
             body=message,
@@ -93,7 +103,7 @@ if login_verify:
 
     print(message)
 
-# If login fails, print error message from website
+# If login fails, print error message from my.t portal
 else:
     error_message = page.select(".feedbackPanelERROR")[0]
     print("Error: Login Failed. ", error_message.text)

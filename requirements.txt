@@ -1,3 +1,4 @@
-MechanicalSoup == 0.11.0
-apprise == 0.7.8
-dateparser == 0.7.1
+MechanicalSoup == 0.12.0
+apprise == 0.8.1
+dateparser == 0.7.2
+beautifulsoup4 == 4.8.1
