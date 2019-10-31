@@ -35,7 +35,7 @@ The config.ini file is used to configure the script. The following values should
 
 `TIME`: The time format. The only valid values are `12h` or `24h`
 
-`SYNTAX`: The Apprise syntax which will determine the type of notification you will receive:
+`SYNTAX`: The Apprise syntax which will determine the type of notification you will receive. You can leave this blank if you only need command line output.
 
 ### Apprise Syntax:
 
@@ -48,6 +48,7 @@ Refer to the [Apprise documentation](https://github.com/caronc/apprise/wiki) for
 
 `windows://` will send the notification to the Windows Notification Centre (`pypwin32` required).
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1OTE1OTc5MF19
+eyJoaXN0b3J5IjpbLTE2NzQzOTMxMjYsMTc1OTE1OTc5MF19
 -->
