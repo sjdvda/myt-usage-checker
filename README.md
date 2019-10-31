@@ -39,7 +39,7 @@ The config.ini file is used to configure the script. The following values should
 
 ### Apprise Syntax:
 
-Refer to the [Apprise documentation](https://github.com/caronc/apprise/wiki) for detailed examples.
+Refer to the [Apprise documentation](https://github.com/caronc/apprise/wiki) for detailed examples. Over 40 different services are supported.
 
 #### Examples: 
 `mailto://{userid}:{password}@gmail.com` will send the notification by email.
@@ -51,12 +51,9 @@ Refer to the [Apprise documentation](https://github.com/caronc/apprise/wiki) for
 ### Home Assistant Component
 If you are a Home Asssistant user, I have also created a component that will save the value as a sensor, which can then be displayed in your UI: [my.t Usage (Home Assistant)](https://github.com/sjdvda/myt-usage-home-assistant)
 
- - List item
-
-This project uses [MechanicalSoup](https://pypi.org/project/MechanicalSoup/) to scrape the my.t portal.
-
-
-
+ - This project uses [MechanicalSoup](https://pypi.org/project/MechanicalSoup/) to scrape the my.t portal.
+ - Notifications are sent using [Apprise](https://github.com/caronc/apprise).
+ - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NjE2NTk0NywxNzU5MTU5NzkwXX0=
+eyJoaXN0b3J5IjpbMTM0NTY2NDU5MywxNzU5MTU5NzkwXX0=
 -->
