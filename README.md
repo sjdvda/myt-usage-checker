@@ -17,11 +17,13 @@ For other Linux flavors, macOS and Windows, packages are available at
 
 1. Clone or download this repository to your computer
 
-2. Edit the config.ini file (refer to the configuration sect. 
+2. Edit the config.ini file (refer to the configuration section below). 
 
-3. To install the requirements`python -m pip install -r requirements.txt`
+3. To install the requirements`python3 -m pip install -r requirements.txt`
 
-4. To run the script `python3 mytusage.py`
+4. Run the script `python3 mytusage.py`
+
+5. You can run the script on a schedule using `cron`, Windows Task Scheduler, 
 
 ## Configuration
 
@@ -42,5 +44,5 @@ Refer to
 
 `TIME`: The time format. The only valid values are `12h` or `24h`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMDQ1MzMwNV19
+eyJoaXN0b3J5IjpbNjQ1NjE4ODI4XX0=
 -->
