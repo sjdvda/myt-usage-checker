@@ -48,7 +48,11 @@ Refer to the [Apprise documentation](https://github.com/caronc/apprise/wiki) for
 
 `windows://` will send the notification to the Windows Notification Centre (`pypwin32` required).
 
+### Home Assistant Component
+If you are a Home Asssistant user, I have also created a component that will save the value as a sensor, which can then be displayed in your UI: 
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzQzOTMxMjYsMTc1OTE1OTc5MF19
+eyJoaXN0b3J5IjpbLTk1OTUzNDgyLDE3NTkxNTk3OTBdfQ==
 -->
