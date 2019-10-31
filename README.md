@@ -23,7 +23,7 @@ For other Linux flavors, macOS and Windows, packages are available at
 
 4. Run the script `python3 mytusage.py`
 
-5. You can run the script on a schedule using `cron`, Windows Task Scheduler, 
+5. You can run the script on a schedule using `cron`, [Windows Task Scheduler](https://datatofish.com/python-script-windows-scheduler/), or any other scheduler that supports python scripts.
 
 ## Configuration
 
@@ -44,5 +44,5 @@ Refer to
 
 `TIME`: The time format. The only valid values are `12h` or `24h`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ1NjE4ODI4XX0=
+eyJoaXN0b3J5IjpbLTE2MTg4ODMwMzVdfQ==
 -->
