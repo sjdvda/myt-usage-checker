@@ -40,11 +40,14 @@ The config.ini file is used to configure the script. The following values should
 Refer to the [Apprise documentation](https://github.com/caronc/apprise/wiki) for detailed examples.
 
 
+`mailto://{userid}:{password}@gmail.com` will send the notification by email.
+
 
 `windows://` will send the notification to the Windows Notification Centre (`pypwin32` required).
 
 
+
 `TIME`: The time format. The only valid values are `12h` or `24h`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4ODgyNTgxOV19
+eyJoaXN0b3J5IjpbLTE0OTMyMDM1ODZdfQ==
 -->
