@@ -48,8 +48,6 @@ Refer to the [Apprise documentation](https://github.com/caronc/apprise/wiki) for
 
 `windows://` will send the notification to the Windows Notification Centre (`pypwin32` required).
 
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NDM0Mzc4XX0=
+eyJoaXN0b3J5IjpbMTc1OTE1OTc5MF19
 -->
