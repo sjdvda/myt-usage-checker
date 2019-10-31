@@ -33,21 +33,23 @@ The config.ini file is used to configure the script. The following values should
 
 `THRESHOLD`: The default value of 0 will send all notifications. Setting a value here will send you a notification only if your remaining data is below a certain amount. For example, a value of `100` will notify you if you have 99 GB left, but will not send a notification if you have 200 GB left.
 
+`TIME`: The time format. The only valid values are `12h` or `24h`
+
 `SYNTAX`: The Apprise syntax which will determine the type of notification you will receive:
 
-### Apprise Syntax Examples:
+### Apprise Syntax:
 
 Refer to the [Apprise documentation](https://github.com/caronc/apprise/wiki) for detailed examples.
 
-
+#### Examples: 
 `mailto://{userid}:{password}@gmail.com` will send the notification by email.
-`pbul://{accesstoken}/{device_id}`
+
+`pbul://{accesstoken}` will send a Pushbullet notification
 
 `windows://` will send the notification to the Windows Notification Centre (`pypwin32` required).
 
 
 
-`TIME`: The time format. The only valid values are `12h` or `24h`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU3MTYyMTNdfQ==
+eyJoaXN0b3J5IjpbMTg4NDM0Mzc4XX0=
 -->
