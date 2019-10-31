@@ -23,7 +23,7 @@ For other Linux flavors, macOS and Windows, packages are available at
 
 4. Run the script `python3 mytusage.py`
 
-5. You can run the script on a schedule using `cron`, [Windows Task Scheduler](https://datatofish.com/python-script-windows-scheduler/), or any other scheduler that supports python scripts.
+5. You can run the script on a schedule using `cron`, [Windows Task Scheduler](https://datatofish.com/python-script-windows-scheduler/), or any other scheduler that supports python scripts. 
 
 ## Configuration
 
@@ -37,12 +37,14 @@ The config.ini file is used to configure the script. The following values should
 
 ### Apprise Syntax Examples:
 
-Refer to 
+Refer to the [Apprise documentation](https://github.com/caronc/apprise/wiki) for detailed examples.
+
+
 
 `windows://` will send the notification to the Windows Notification Centre (`pypwin32` required).
 
 
 `TIME`: The time format. The only valid values are `12h` or `24h`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTg4ODMwMzVdfQ==
+eyJoaXN0b3J5IjpbLTM4ODgyNTgxOV19
 -->
