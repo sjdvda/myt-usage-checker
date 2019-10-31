@@ -26,7 +26,6 @@ For other Linux flavors, macOS and Windows, packages are available at
 5. You can run the script on a schedule using `cron`, [Windows Task Scheduler](https://datatofish.com/python-script-windows-scheduler/), or any other scheduler that supports python scripts. 
 
 ## Configuration
-
 The config.ini file is used to configure the script. The following values should be set:
 
 `USERNAME` and `PASSWORD`: These are the same credentials that you use to log in to internetaccount.myt.mu. If you don't know your login details, contact the Mauritius Telecom Hotline
@@ -51,9 +50,9 @@ Refer to the [Apprise documentation](https://github.com/caronc/apprise/wiki) for
 ### Home Assistant Component
 If you are a Home Asssistant user, I have also created a component that will save the value as a sensor, which can then be displayed in your UI: [my.t Usage (Home Assistant)](https://github.com/sjdvda/myt-usage-home-assistant)
 
+## Credits
  - This project uses [MechanicalSoup](https://pypi.org/project/MechanicalSoup/) to scrape the my.t portal.
  - Notifications are sent using [Apprise](https://github.com/caronc/apprise).
- - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NTY2NDU5MywxNzU5MTU5NzkwXX0=
+eyJoaXN0b3J5IjpbMzgxMDI5MjgwLDE3NTkxNTk3OTBdfQ==
 -->
