@@ -17,9 +17,9 @@ For other Linux flavors, macOS and Windows, packages are available at
 
 1. Clone or download this repository to your computer
 
-2. Add your my.t login details to the config.ini file. 
+2. Edit the config.ini file (refer to the configuration sect. 
 
-3. To install the dependencies, navigate to the folder and run `python -m pip install -r requirements.txt`
+3. To install the requirements`python -m pip install -r requirements.txt`
 
 4. To run the script `python3 mytusage.py`
 
@@ -41,3 +41,6 @@ Refer to
 
 
 `TIME`: The time format. The only valid values are `12h` or `24h`
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTgzMDQ1MzMwNV19
+-->
