@@ -19,7 +19,7 @@ For other Linux flavors, macOS and Windows, packages are available at
 
 2. Edit the config.ini file (refer to the configuration section below). 
 
-3. To install the requirements`python3 -m pip install -r requirements.txt`
+3. Navigate to the folder and install the requirements`python3 -m pip install -r requirements.txt`
 
 4. Run the script `python3 mytusage.py`
 
@@ -54,5 +54,6 @@ If you are a Home Asssistant user, I have also created a component that will sav
  - This project uses [MechanicalSoup](https://pypi.org/project/MechanicalSoup/) to scrape the my.t portal.
  - Notifications are sent using [Apprise](https://github.com/caronc/apprise).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgxMDI5MjgwLDE3NTkxNTk3OTBdfQ==
+eyJoaXN0b3J5IjpbLTE5Nzk3MzU1MDMsMzgxMDI5MjgwLDE3NT
+kxNTk3OTBdfQ==
 -->
