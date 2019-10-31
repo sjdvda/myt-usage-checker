@@ -21,16 +21,13 @@ else:
 # Get values from config file
 username = config['DEFAULT']['USERNAME']
 password = config['DEFAULT']['PASSWORD']
-apprise_syntax = config['APPRISE']['SYNTAX']
-time_format = config['FORMAT']['TIME']
 threshold = config['DEFAULT']['THRESHOLD']
+time_format = config['FORMAT']['TIME']
+apprise_syntax = config['APPRISE']['SYNTAX']
 
 # Create apprise object
 apprise_object = apprise.Apprise()
 apprise_object.add(apprise_syntax)
-
-# To receive Windows Notifications (pypiwin32 required)
-# apprise_object.add('windows://')
 
 # Set browser
 browser = mechanicalsoup.StatefulBrowser()
