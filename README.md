@@ -1,9 +1,9 @@
 # my.t Usage Checker
 
-A script that retrieves the remaining monthly data amount from the my.t (Mauritius Telecom) portal (internetaccount.myt.mu) and sends a notification.
+A script that retrieves the remaining monthly volume allowance from the [my.t (Mauritius Telecom) portal](internetaccount.myt.mu) and sends a notification.
 
 ## Requirements
-You need Python 3.5 or later.
+You need Python 3.8 or later.
 
 In Ubuntu, Mint and Debian you can install Python 3 like this:
 
@@ -53,8 +53,3 @@ If you are a Home Asssistant user, I have also created a component that will sav
 ## Credits
  - This project uses [MechanicalSoup](https://pypi.org/project/MechanicalSoup/) to scrape the my.t portal.
  - Notifications are sent using [Apprise](https://github.com/caronc/apprise).
- 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzk3MzU1MDMsMzgxMDI5MjgwLDE3NT
-kxNTk3OTBdfQ==
--->
