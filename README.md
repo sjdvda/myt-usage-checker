@@ -3,7 +3,7 @@
 A script that retrieves the remaining monthly volume allowance from the [my.t (Mauritius Telecom) portal](internetaccount.myt.mu) and sends a notification.
 
 ## Requirements
-You need Python 3.8 or later.
+You need Python 3.9 or later.
 
 In Ubuntu, Mint and Debian you can install Python 3 like this:
 
