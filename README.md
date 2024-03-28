@@ -1,3 +1,5 @@
+No longer working due to Mauritius Telecom website change.
+
 # my.t Usage Checker
 
 A script that retrieves the remaining monthly volume allowance from the [my.t (Mauritius Telecom) portal](internetaccount.myt.mu) and sends a notification.
